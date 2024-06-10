@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Registration Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hospital Registration Form</h1>
+    </header>
+
+    <section>
+        <form>
+            <!--Patient's Fullname -->
+
+            <input type="text" placeholder="Patient's Firstname:" name="Firstname"><br><br>
+
+
+            <input type="text" placeholder="Patient's Surname" name="Surname"> <br><br>
+
+
+            <input type="text" name="Lastname" placeholder="Patient's Lastname"> <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@mail.com"><br><br>
+
+            <!-- Date Of Birth -->
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <!--Gender  -->
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+
+
+            <!-- blood type -->
+            <label for="bloodtype">bloodtype</label>
+            <input type="text" name="bloodtype" placeholder="Fill in your bloodtype..."> <br><br>
+
+            <!-- medical condition -->
+            <label for="condition">Medical Condition:</label><br>
+            <textarea required id="condition" name="condition" cols="30" rows="10"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+</body>
+
+</html>
